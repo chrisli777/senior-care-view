@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Calendar, Users, BarChart } from "lucide-react";
 
 const Home = () => {
   return (
@@ -129,7 +130,7 @@ const Home = () => {
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="w-12 h-12 rounded-full bg-carePurple-100 flex items-center justify-center mb-4">
-                <ChartBar className="h-6 w-6 text-carePurple-700" />
+                <BarChart className="h-6 w-6 text-carePurple-700" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Health Monitoring</h3>
               <p className="text-gray-600">
@@ -159,7 +160,7 @@ const Home = () => {
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="w-12 h-12 rounded-full bg-carePurple-100 flex items-center justify-center mb-4">
-                <ChartBar className="h-6 w-6 text-carePurple-700" />
+                <BarChart className="h-6 w-6 text-carePurple-700" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Activity Reports</h3>
               <p className="text-gray-600">
